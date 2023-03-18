@@ -1,0 +1,196 @@
+  @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Open+Sans&family=Outfit:wght@400;700;900&display=swap');
+
+  :root{
+    --HEADER-COLOR:hsl(300, 43%, 22%);
+    --IMG-DESCRIPTION:hsl(333, 80%, 67%);
+    --SUB-HEADING-COLOR: hsl(302, 10%, 53%);
+    --MAIN-BG:hsl(300, 24%, 96%);
+  }
+ 
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    text-decoration: none;
+    background-color:var(--MAIN-BG);
+  }
+
+  body{
+    font-family: 'League Spartan', sans-serif;
+    font-size:15px;
+    display:grid;
+    min-height:100vh;
+    place-content: center;
+  }
+
+  .left .heading{
+    padding:2.3rem;
+    color:var(--HEADER-COLOR);
+    font-size:2.5rem;
+    text-align:center;
+    line-height:2.3rem;
+    font-weight:700;
+  }
+
+.subheading{
+  color:#938992;
+  line-height: 1.3rem;
+  font-size:1.1rem;
+  text-align:center;
+  margin:-1.2rem 1rem 1.2rem 1rem;
+  line-height:1.5rem;
+}
+
+img{
+  display:inline-block;
+}
+
+.star-icon, .star-icon p{
+  text-align:center;
+  background-color:hsl(300, 28%, 93%);
+  margin-bottom:0.2rem;
+  color:var(--HEADER-COLOR);
+  font-weight:bolder;
+  font-size:1rem;
+}
+
+.star-icon{
+  border-radius:10px;
+  padding:1rem;
+  margin:1rem 2rem 1rem 2rem;
+}
+
+.star-img{
+  background-color:hsl(300, 28%, 93%);
+  margin-bottom:0.5rem;
+}
+
+.bottom-icon:last-child{
+  margin-bottom:3rem;
+}
+
+.testimonials{
+  border-radius:10px;
+  margin:0 2rem 0 2rem;
+  padding:2.5rem;
+  background-color:var(--HEADER-COLOR);
+}
+
+.profile{
+  display:flex;
+  align-items: center;
+  gap:1.5rem;
+  background-color:var(--HEADER-COLOR);
+}
+
+.profile img{
+  display:block;
+  border-radius:50%;
+  height:auto;
+  width:40px;
+}
+
+.p-name{
+  color:white;
+  font-weight:bold;
+}
+
+.p-title{
+  font-weight:100;
+  color:var(--IMG-DESCRIPTION);
+}
+
+.profile-content p{
+  background-color:var(--HEADER-COLOR);
+  margin-top:1rem;
+  color:white;
+  line-height:1.3rem;
+}
+
+.profile-description p, .p-title{
+  background-color:var(--HEADER-COLOR);
+  line-height:1.3rem;
+}
+
+.testimonials{
+  margin-bottom:1rem;
+}
+
+@media screen and (min-width:768px){
+.container{
+  padding:2rem;
+}
+
+body{
+  background-image:url('/images/bg-pattern-top-desktop.svg'), url('/images/bg-pattern-bottom-desktop.svg');
+  background-repeat:no-repeat, no-repeat;
+  background-position:left top, right bottom;
+}
+
+  .upper-section{
+    display:flex;
+    gap:7rem;
+    justify-content:center;
+    text-align:left;
+  }
+
+  .left, .right{
+    width:50%;
+  }
+  
+  .subheading{
+    text-align:left;
+    padding-left:2rem;
+  }
+
+  .right .top-icon{
+    margin-left:-2.5rem;
+    margin-right:5rem;
+  }
+
+  .right .middle-icon{
+    margin-left:0.5rem;
+    margin-right:3rem;
+  }
+
+  .right .bottom-icon{
+    margin-left:3.2rem;
+    margin-right:1.2rem;
+  }
+
+  .testimonials-section{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:3.5rem;
+  }
+
+  .t-1{
+    margin-top:-3.2rem;
+    margin-right:-0.2rem;
+  }
+
+  .t-2{
+    margin-top:-1rem;
+    margin-right:-0.2rem;
+  }
+
+  .t-3{
+    margin-top:1rem;
+  }
+
+  .attribution {
+    margin-top:-1rem;
+  }
+}
+
+  .attribution {
+      font-size: 11px;
+      text-align: center;
+      color:#502050;
+    }
+
+    .attribution a {
+      color:violet;
+      /* color: #502050; */
+    }
