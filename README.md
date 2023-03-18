@@ -22,7 +22,7 @@ This is a solution to the [Social proof section challenge on Frontend Mentor](ht
 ### Links
 
 - Solution URL: 
-- Live Site URL:
+- Live Site URL:https://proof-section.netlify.app/
 ## My process
 
 ### Built with
